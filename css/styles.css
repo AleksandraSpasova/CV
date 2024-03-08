@@ -1,20 +1,59 @@
 /* Use this file to use your own styles*/
 
 /* Import declaration to use Google Fonts - check https://fonts.google.com/ for details */
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Lexend:wght@100..900&display=swap" rel="stylesheet');
 
 /* Styles for the body */
-
 body {
-	font-family: Lato, "Open Sans", Roboto, "Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif;
-	color: #202030;
+  font-family: "Lexend", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+  color: #353535;
+  background-color: #f8f8fc;
+}
+
+h1 {
+	font-family: "Lexend", sans-serif;
+	font-size: 60px;
+	font-weight: bold;
+	color: #FFFC9C
+}
+h2 {
+	font-family: "Lexend", sans-serif;
+    font-optical-sizing: auto;
+	font-weight: bold;
+	color: #353535;	
+	background-color: #FFFC9C
+}
+h4 {
+	font-family: "Lexend", sans-serif;
+	font-weight: bold;
+	font-size: 25px;
+	color: #353535;
+}
+h5 {
+	font-family: "Lexend", sans-serif;
+    font-optical-sizing: auto;
+	color: #353535;
+}
+.tagline {
+	font-family: "Lexend", sans-serif;
+    font-optical-sizing: auto;
+	font-weight: bold;
+	color: #fffefc;
+}
+body {
+	font-family: "Lexend", sans-serif;
+    font-optical-sizing: auto;
+	color: #353535;
 	background-color: #f8f8fc;
 }
 
 /* Styles for custom classes in the document. (There are more, try to find them out!) */
 
 .resume-header {
-    background-color: #e0f0ff;
+    background-color: #353535;
 }
 
 .resume-main {
@@ -22,13 +61,13 @@ body {
 }
 
 .resume-aside {
-	background-color: #fff0e0;
+	background-color: #FFFC9C;
 }
 
 /* Styles for lists in the document */
 
 .biography-details li::before, .skill-list li::before {
-	content: ">";
+	content: "•";
 	font-weight: 800;
 	display: inline-block;
 	width: 1em;
@@ -36,11 +75,11 @@ body {
 }
 
 .biography-details li::before {
-	color: #EE7623;
+	color: #353535;
 }
 
 .biography-details li, .skill-list li {
-	padding-left: 1em;
+	padding-left: 2em;
 }
 
 /* Styles for contact icons */
@@ -48,4 +87,16 @@ body {
 .contact-icon {
 	height: 1em;
 	flex-basis: 1.4em;
+}
+.circle {
+}
+
+.bg-warning {
+	background-color: #fffefc !important;
+}
+.new-text {
+	font-family: "Lexend", sans-serif;
+    font-optical-sizing: auto;
+	font-weight: normal;
+	color: #fffefc;
 }
